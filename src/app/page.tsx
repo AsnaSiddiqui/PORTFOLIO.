@@ -89,7 +89,7 @@ export default function Home() {
     
 
 <div className="contactmain">
-    <h1>Let's chat!</h1>
+    <h1>Lets chat!</h1>
     <h2>I would love to learn about your project</h2>
 
     <div className="details">
