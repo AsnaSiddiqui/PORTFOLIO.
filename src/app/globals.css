@@ -180,9 +180,8 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 200;
         letter-spacing: 0.3em;
-        color:rgb(2, 22, 39);
-/*         text-shadow: 0 0 0.5em #8b8b8b, 0 0 1em #04205c, 0 0 2em rgb(7, 7, 7); */
-         text-shadow: 0.2em 0.1em 0.3em gray;
+        color: rgb(216, 229, 243);
+        text-shadow: 0.2em 0.1em 0.3em rgb(192, 190, 190); 
        
 
 
