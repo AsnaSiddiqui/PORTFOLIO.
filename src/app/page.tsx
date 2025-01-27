@@ -1,101 +1,116 @@
 import Image from "next/image";
+import Header from "./components/header/page";
+import Mine from "./components/image/mines.jpeg"
+import Animation from "./components/image/animation.png"
+import Email from "./components/image/email.png"
+import Github from "./components/image/github.png"
+import Linkedin from "./components/image/linkedin.png"
+
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+      <div>
+        <Header/>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      <div className="main">
+        <div className="leftside">
+        <h5>Hello, Welcome</h5>
+        <h1>I am <span>Asna Siddiqui</span></h1>
+        <h4>WEB DEVELOPER</h4>
+        <p>I am a web developer passionate about creating responsive,
+           visually appealing websites that prioritize user experience and functionality.</p>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <div className="rightside">
+        <Image src={Mine} alt="image"/>
+        </div>
+      </div>
+
+
+      <div className="about" id="abouts">
+
+    
+
+        <div className="leftside1">
+
+          <Image src={Animation} alt="image"/>
+
+        </div>
+        <div className="rightside1">
+        <h2>ABOUT ME</h2>
+        <ul>
+            <li>I am an undergraduate student pursuing a Bachelor of Commerce (B.Com) with a growing interest in web development. Though my academic background is in commerce, I have developed a passion for coding and technology. I am currently working on enhancing my skills in HTML, CSS, JavaScript, Tailwind CSS & Next.js, and I am exploring the world of full-stack development.</li>
+            <li>As a beginner to intermediate web developer, I enjoy creating interactive websites and learning through  I believe that combining my business knowledge with technical skills will help me create unique solutions in the future.</li>
+            <li>I am committed to learning continuously, and I look forward to growing in the world of web development while pursuing my studies in commerce.</li>
+        </ul>
+        </div>
+        </div>
+
+
+  <div className="skills" id="skills">
+    <h2>Skills</h2>
+
+    <br />
+    <div className="skillsmain">
+      <ul>
+        <div className="row">
+          <div className="row1">
+            <li>
+              <h3>HTML & CSS:</h3> 
+              <p>Building responsive and accessible web pages using modern techniques.</p>
+            </li>
+            <li>
+              <h3>TypeScript:</h3>
+              <p>Applying type safety in web development and enhancing JavaScript code.</p> 
+            </li>
+          </div>
+          <div className="row2">
+            <li>
+              <h3>Next.js:</h3>
+              <p>Experienced in developing high-performance, SEO-friendly web applications with Next.js.</p>
+             </li>
+            <li>
+              <h3>Tailwind CSS</h3>
+              <p>Proficient in building responsive and modern designs using Tailwind CSS for efficient styling.</p>
+            </li>
+          </div>  
+          <div className="row3">
+            <li>
+              <h3>Ongoing Learning:</h3> 
+              <p>Improved and extended knowledge in HTML, CSS, TypeScript, and Next.js.</p>
+            </li>
+          </div>
+          </div>
+      </ul>
     </div>
-  );
+        </div>
+
+        <div className="contact" id="contact">
+    
+    
+
+<div className="contactmain">
+    <h1>Let's chat!</h1>
+    <h2>I would love to learn about your project</h2>
+
+    <div className="details">
+
+    <a className="logo1" href="https://www.linkedin.com/in/asna-siddiqui-2845862b4/" target="_blank"><Image src={Linkedin} alt="LinkedIN media logo " /></a>
+    <br />
+    <a className="logo2" href="mailto:asnasiddiqui11@gmail.com" target="_blank"><Image src={Email} alt="Email media logo" /></a>
+    <br />
+    <a className="logo3" href="https://github.com/AsnaSiddiqui" target="_blank"><Image src={Github} alt="GitHub media logo" /></a>
+
+    </div>
+    <p>Feel free to get in touch! Whether
+       it is for a potential project, collaboration, or just to connect, 
+       I am always open to new opportunities and conversations.</p>
+
+</div>
+
+</div>
+        
+      </div>
+        
+      
+      )
 }
