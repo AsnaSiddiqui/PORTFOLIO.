@@ -89,7 +89,7 @@ export default function Home() {
     
 
 <div className="contactmain">
-    <h1>Lets chat&#33 </h1>
+    <h1>Lets chat&#33; </h1>
     <h2>I would love to learn about your project</h2>
 
     <div className="details">
@@ -101,7 +101,7 @@ export default function Home() {
     <a className="logo3" href="https://github.com/AsnaSiddiqui" target="_blank"><Image src={Github} alt="GitHub media logo" /></a>
 
     </div>
-    <p>Feel free to get in touch&#33 Whether
+    <p>Feel free to get in touch&#33; Whether
        it is for a potential project, collaboration, or just to connect, 
        I am always open to new opportunities and conversations.</p>
 
