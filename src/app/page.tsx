@@ -66,11 +66,11 @@ export default function Home() {
           <div className="row2">
             <li>
               <h3>Next.js:</h3>
-              <p>Experienced in developing high-performance, SEO-friendly web applications with Next.js.</p>
+              <p>Experienced in developing high-performance, SEO-friendly web applications.</p>
              </li>
             <li>
               <h3>Tailwind CSS</h3>
-              <p>Proficient in building responsive and modern designs using Tailwind CSS for efficient styling.</p>
+              <p>Proficient in responsive and modern designs using Tailwind CSS for styling.</p>
             </li>
           </div>  
           <div className="row3">
